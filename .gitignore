@@ -1,0 +1,33 @@
+# ── Gradle build outputs ────────────────────────────────────────────────────
+.gradle/
+build/
+**/build/
+
+# ── Android local config ─────────────────────────────────────────────────────
+# Contains absolute SDK/NDK paths specific to each machine — never commit.
+local.properties
+app/local.properties
+
+# ── IDE — IntelliJ / Android Studio ──────────────────────────────────────────
+# Keep: .idea/codeStyles, .idea/inspectionProfiles, .idea/copyright (shared settings)
+# Skip: machine-specific and generated files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/caches/
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/navEditor.xml
+.idea/androidTestResultsUserPreferences.xml
+.idea/planningMode.xml
+*.iml
+
+# ── Keystore / signing ────────────────────────────────────────────────────────
+*.jks
+*.keystore
+keystore.properties
+
+# ── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
