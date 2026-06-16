@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash/launch theme. Once Compose takes over, GolfTheme supplies all styling.
+    The windowBackground here prevents a white flash before the first composition.
+-->
+<resources>
+    <style name="Theme.GolfTracker" parent="android:Theme.Material.NoActionBar">
+        <!-- Use a dark launch background matching GolfTheme dark surface -->
+        <item name="android:windowBackground">@color/launch_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

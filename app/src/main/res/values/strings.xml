@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Golf Performance Tracker</string>
+    <string name="screen_players">Players</string>
+    <string name="screen_player_detail">Player Detail</string>
+    <string name="screen_shots">Shot History</string>
+    <string name="label_avg_speed">Avg Speed</string>
+    <string name="label_avg_carry">Avg Carry</string>
+    <string name="label_avg_launch">Avg Launch</string>
+    <string name="label_avg_spin">Avg Spin</string>
+    <string name="label_smash_factor">Smash Factor</string>
+    <string name="label_total_shots">Total Shots</string>
+    <string name="label_search_players">Search players</string>
+    <string name="label_filter_all">All</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="empty_players">No players found</string>
+    <string name="empty_shots">No shots recorded</string>
+</resources>
